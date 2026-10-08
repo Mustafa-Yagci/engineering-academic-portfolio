@@ -2,7 +2,7 @@
 ### Complete Undergraduate (B.Sc.) and Graduate (M.Sc.) Engineering Practicum & Research
 **Author:** **Mustafa Yağcı**  
 **Institutions:** [Università degli Studi di Palermo (UniPa)](https://www.unipa.it) | [Eskişehir Osmangazi University (ESOGÜ)](https://www.ogu.edu.tr)  
-**Profile:** [linkedin.com/in/-mustafa-yagci](https://www.linkedin.com/in/-mustafa-yagci) | [github.com/yotova](https://github.com/yotova)
+**Profile:** [linkedin.com/in/-mustafa-yagci](https://www.linkedin.com/in/-mustafa-yagci) | [github.com/Mustafa-Yagci](https://github.com/Mustafa-Yagci)
 
 ---
 
