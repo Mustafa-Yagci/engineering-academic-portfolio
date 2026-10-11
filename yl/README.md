@@ -28,9 +28,3 @@
   - Automated 16-bit SAR ADC dynamic characterization computing **SNR, SINAD, ENOB, and THD** using Hanning/Flat-top windowed DFT power spectral density estimation; GUM-compliant uncertainty budget.
   - Complete collection of 49 custom author-developed LabVIEW Virtual Instruments (`.vi` files) included in [LabVIEW_VIs/](2026/Measurement_and_Automation/LabVIEW_VIs/).
   - **File:** [Lab_Report_Mustafa_Yagci.pdf](2026/Measurement_and_Automation/Lab_Report_Mustafa_Yagci.pdf)
-- **`Biomedical_IoT/`**:
-  - Research roadmaps covering Contactless Radar vital sign monitoring, Cuffless Blood Pressure estimation via Pulse Transit Time (PTT) combining ECG and PPG, and Surface EMG muscle fatigue spectral analysis using sliding-window FFT.
-  - **Documentation:** [Biomedical IoT Research Brief](2026/Biomedical_IoT/README.md)
-- **`BioAmp_Pro_AFE/`**:
-  - Precision Biopotential Analog Front-End (AFE) instrumentation design (KiCad 8, 4-layer PCB, 100% 0 ERC / 0 DRC verified, CMRR $>100\text{ dB}$, active Driven-Right-Leg 50 Hz mains suppression, 4th-order active Sallen-Key filtering).
-  - **Documentation:** [BioAmp Pro Documentation](2026/BioAmp_Pro_AFE/README.md)

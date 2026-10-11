@@ -21,7 +21,7 @@
 This repository provides an open-source, reproducible catalog of my physical laboratory investigations, hardware bringing-up reports, ECAD simulations, and automated test instrumentation frameworks developed across my academic curriculum:
 
 1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and discrete power electronic converters.
-2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + 49 custom .vi codebase), and precision biomedical analog front-end (AFE) architectures.
+2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), and automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + 49 custom `.vi` codebase).
 
 ---
 
@@ -51,9 +51,7 @@ academic-engineering-portfolio/
     │   └── Applied_Electronics/          <- Discrete negative-feedback regulators, RF mixers, and PLL lock dynamics
     └── 2026/
         ├── Industrial_Electronics/       <- 65-Page SMPS study: Buck/Boost CCM/DCM, state-space PI, benchtop oscilloscope probing
-        ├── Measurement_and_Automation/   <- 65-Page Virtual DAQ suite, 16-bit SAR ADC SNR/SINAD/ENOB/THD testing & 49 LabVIEW VIs
-        ├── Biomedical_IoT/               <- Contactless radar vital signs, cuffless BP (ECG+PPG), and smart EMG fatigue roadmaps
-        └── BioAmp_Pro_AFE/               <- Precision Biopotential AFE architecture (CMRR >100 dB, DRL active suppression)
+        └── Measurement_and_Automation/   <- 65-Page Virtual DAQ suite, 16-bit SAR ADC SNR/SINAD/ENOB/THD testing & 49 LabVIEW VIs
 ```
 
 ---
@@ -66,8 +64,6 @@ academic-engineering-portfolio/
 | :--- | :--- | :--- | :--- | :--- |
 | **2026** | **Industrial Electronics** | Switched-Mode DC-DC Buck/Boost CCM/DCM Characterization, State-Space Averaging, PI Bode Stability & Physical Benchtop Switching Ringing Probing | PSIM, Differential Probes, DSO | [Mustafa_Yagci_LABORATORY_REPORT.pdf](yl/2026/Industrial_Electronics/Mustafa_Yagci_LABORATORY_REPORT.pdf) *(65 Pages)* |
 | **2026** | **Electronic Measurement** | Virtual DAQ Architecture, Nyquist-Shannon Sampling, 16-bit SAR ADC Dynamic Characterization (SNR, SINAD, ENOB, THD) & GUM Uncertainty | LabVIEW, 16-bit DAQ, FFT/DFT | [Lab_Report_Mustafa_Yagci.pdf](yl/2026/Measurement_and_Automation/Lab_Report_Mustafa_Yagci.pdf) *(65 Pages + 49 VIs)* |
-| **2026** | **Biomedical Engineering** | Precision Biopotential Analog Front-End (AFE), Active Driven-Right-Leg (DRL), Notch & Sallen-Key Bandpass Filtering | KiCad 8, LTspice | [BioAmp Pro Documentation](yl/2026/BioAmp_Pro_AFE/README.md) |
-| **2026** | **Biomedical IoT** | Contactless Radar Respiration Detection, Cuffless PTT Blood Pressure, and Surface EMG Muscle Fatigue FFT Analysis | Radar, Photoplethysmography | [Biomedical IoT Research Brief](yl/2026/Biomedical_IoT/README.md) |
 | **2025** | **Applied Electronics** | BD139 Closed-Loop Negative Feedback Voltage Regulators, Tuned LC RF Frequency Mixers, and Phase-Locked Loop (PLL) Dynamics | LTspice, Spectrum Analyzer | [Mustafa_Yagci_Report.pdf](yl/2025/Applied_Electronics/Mustafa_Yagci_Report.pdf) *(15 Pages)* |
 
 ---
