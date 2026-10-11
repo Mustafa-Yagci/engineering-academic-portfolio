@@ -1,13 +1,13 @@
 # Academic Engineering Portfolio & Laboratory Archive 🎓⚡
-### Complete Undergraduate (B.Sc.) and Graduate (M.Sc.) Engineering Practicum & Research
+### Undergraduate (B.Sc. @ ESOGÜ — Graduated Apr 2025) & Master's Research (M.Sc. Student @ UniPa — Ongoing)
 **Author:** **Mustafa Yağcı**  
-**Institutions:** [Università degli Studi di Palermo (UniPa)](https://www.unipa.it) | [Eskişehir Osmangazi University (ESOGÜ)](https://www.ogu.edu.tr)  
+**Institutions:** [Università degli Studi di Palermo (UniPa)](https://www.unipa.it) *(M.Sc. Student, Nov 2025 – Present / Ongoing)* | [Eskişehir Osmangazi University (ESOGÜ)](https://www.ogu.edu.tr) *(B.Sc. Graduate, Apr 2025)*  
 **Profile:** [linkedin.com/in/-mustafa-yagci](https://www.linkedin.com/in/-mustafa-yagci) | [github.com/Mustafa-Yagci](https://github.com/Mustafa-Yagci)
 
 ---
 
-[![ESOGÜ ABET Accredited](https://img.shields.io/badge/B.Sc.-ESOG%C3%9C%20(ABET%20Accredited)-003366?style=for-the-badge&logo=academia)](#)
-[![UniPa M.Sc. Candidate](https://img.shields.io/badge/M.Sc.-Universit%C3%A0%20di%20Palermo-8B0000?style=for-the-badge&logo=google-scholar)](#)
+[![ESOGÜ B.Sc. Graduate](https://img.shields.io/badge/B.Sc._Graduate-ESOGÜ_%7C_Apr_2025-003366?style=for-the-badge&logo=academia)](#)
+[![UniPa M.Sc. Student](https://img.shields.io/badge/M.Sc._Student-UniPa_%7C_Nov_2025--Present_(Ongoing)-8B0000?style=for-the-badge&logo=google-scholar)](#)
 [![Vivado & RTL](https://img.shields.io/badge/FPGA-Xilinx%20Vivado%20%7C%20Verilog%20%7C%20VHDL-E05A47?style=for-the-badge&logo=amd)](#)
 [![KiCad 8](https://img.shields.io/badge/PCB-KiCad%208%20(0%20ERC%20%2F%200%20DRC)-314CB6?style=for-the-badge&logo=kicad)](#)
 [![PSIM & Power](https://img.shields.io/badge/Power-PSIM%20%7C%20State--Space-2E8B57?style=for-the-badge)](#)
@@ -20,8 +20,8 @@
 
 This repository provides an open-source, reproducible catalog of my physical laboratory investigations, hardware bringing-up reports, ECAD simulations, and automated test instrumentation frameworks developed across my academic curriculum:
 
-1. **Undergraduate Level (ESOGÜ, 2021 – 2024):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and pulse Doppler radar systems.
-2. **Graduate Level (UniPa, 2025 – 2026):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + complete `.vi` codebase), and precision biomedical analog front-end (AFE) architectures.
+1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and pulse Doppler radar systems.
+2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + complete `.vi` codebase), and precision biomedical analog front-end (AFE) architectures.
 
 ---
 
@@ -47,7 +47,7 @@ academic-engineering-portfolio/
 │       ├── Radar_Sistemleri/             <- Pulse Doppler radar equation, PRF, and target Doppler velocity detection
 │       └── Guc_Elektronigi/              <- Single-phase thyristor rectifier & RL inductive load benchtop analysis
 │
-└── yl/                                   <- Graduate Research (UniPa, M.Sc. in Electronics Engineering)
+└── yl/                                   <- Ongoing Master's Research (UniPa, M.Sc. Student in Electronics Engineering, Nov 2025 – Present)
     ├── 2025/
     │   └── Applied_Electronics/          <- Discrete negative-feedback regulators, RF mixers, and PLL lock dynamics
     └── 2026/
@@ -61,7 +61,7 @@ academic-engineering-portfolio/
 
 ## 🔬 Master Chronological Laboratory Directory
 
-### 🎓 Graduate Studies (Università degli Studi di Palermo)
+### 🎓 Ongoing Master's Studies (Università degli Studi di Palermo — M.Sc. Student, Nov 2025 – Present)
 
 | Year | Course / Domain | Research / Experiment Topic | Tools & Instrumentation | Key Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ academic-engineering-portfolio/
 
 ---
 
-### 🏛️ Undergraduate Studies (Eskişehir Osmangazi University)
+### 🏛️ Undergraduate Studies (Eskişehir Osmangazi University — B.Sc. Degree, Graduated Apr 2025)
 
 | Year | Discipline | Laboratory / Experiment Topic | Methodology & Hardware | Deliverable Link |
 | :--- | :--- | :--- | :--- | :--- |
@@ -104,4 +104,4 @@ academic-engineering-portfolio/
 
 ## 📜 Academic Integrity & License
 
-All laboratory reports, circuit schematics, simulation models, and virtual instrument codes contained in this repository were authored by **Mustafa Yağcı** as part of academic coursework and research at ESOGÜ and UniPa. Distributed under the [MIT License](LICENSE) for educational and research reference.
+All laboratory reports, circuit schematics, simulation models, and virtual instrument codes contained in this repository were authored by **Mustafa Yağcı** as part of undergraduate studies at ESOGÜ (B.Sc. Graduate) and ongoing master's research at UniPa (M.Sc. Student, Nov 2025 – Present). Distributed under the [MIT License](LICENSE) for educational and research reference.

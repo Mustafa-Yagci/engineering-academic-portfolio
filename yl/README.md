@@ -1,8 +1,9 @@
-# Graduate Engineering Laboratory & Research Archive (UniPa, 2025 – 2026) 🎓
+# Graduate Engineering Laboratory & Research Archive (UniPa, Nov 2025 – Present) 🎓
+### Ongoing Master of Science in Electronics Engineering
 
 **Institution:** [Università degli Studi di Palermo (UniPa)](https://www.unipa.it) — Department of Engineering  
-**Degree Program:** M.Sc. in Electronics Engineering (Specialization: Electronic Programmable Systems & Bioelectronics)  
-**Student:** Mustafa Yağcı (Matricola: `0830177`)
+**Degree Program:** M.Sc. in Electronics Engineering (Specialization: Electronic Programmable Systems & Bioelectronics) — *Ongoing / Halen Öğrenci*  
+**Student:** Mustafa Yağcı (M.Sc. Student, Matricola: `0830177`, Nov 2025 – Present)
 
 ---
 

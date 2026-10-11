@@ -1,8 +1,8 @@
-# Undergraduate Engineering Laboratory Archive (ESOGÜ, 2021 – 2024) 🏛️
+# Undergraduate Engineering Laboratory Archive (ESOGÜ, 2021 – 2024 / Graduated Apr 2025) 🏛️
 
 **Institution:** [Eskişehir Osmangazi University (ESOGÜ)](https://www.ogu.edu.tr) — Department of Electrical & Electronics Engineering  
 **Curriculum Accreditation:** ABET (Accreditation Board for Engineering and Technology)  
-**Student:** Mustafa Yağcı (Student ID: `151220192027`)
+**Student:** Mustafa Yağcı (B.Sc. Graduate, Apr 2025, Student ID: `151220192027`)
 
 ---
 
