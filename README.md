@@ -20,8 +20,8 @@
 
 This repository provides an open-source, reproducible catalog of my physical laboratory investigations, hardware bringing-up reports, ECAD simulations, and automated test instrumentation frameworks developed across my academic curriculum:
 
-1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and pulse Doppler radar systems.
-2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + complete `.vi` codebase), and precision biomedical analog front-end (AFE) architectures.
+1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and discrete power electronic converters.
+2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + 49 custom .vi codebase), and precision biomedical analog front-end (AFE) architectures.
 
 ---
 
@@ -44,7 +44,6 @@ academic-engineering-portfolio/
 │       ├── PLC_Endustriyel_Otomasyon/    <- Analog sensor scaling (NORM_X / SCALE_X), multi-motor factory sequence
 │       ├── Haberlesme_Sistemleri/        <- GNU Octave digital channel modeling & Fourier spectral filtering
 │       ├── Yari_Iletken_Uretim/          <- 700nm SiO2 thermal oxidation & 250nm RIE trench etching modeling
-│       ├── Radar_Sistemleri/             <- Pulse Doppler radar equation, PRF, and target Doppler velocity detection
 │       └── Guc_Elektronigi/              <- Single-phase thyristor rectifier & RL inductive load benchtop analysis
 │
 └── yl/                                   <- Ongoing Master's Research (UniPa, M.Sc. Student in Electronics Engineering, Nov 2025 – Present)
@@ -52,7 +51,7 @@ academic-engineering-portfolio/
     │   └── Applied_Electronics/          <- Discrete negative-feedback regulators, RF mixers, and PLL lock dynamics
     └── 2026/
         ├── Industrial_Electronics/       <- 65-Page SMPS study: Buck/Boost CCM/DCM, state-space PI, benchtop oscilloscope probing
-        ├── Measurement_and_Automation/   <- 65-Page Virtual DAQ suite, 16-bit SAR ADC SNR/SINAD/ENOB/THD testing & LabVIEW VIs
+        ├── Measurement_and_Automation/   <- 65-Page Virtual DAQ suite, 16-bit SAR ADC SNR/SINAD/ENOB/THD testing & 49 LabVIEW VIs
         ├── Biomedical_IoT/               <- Contactless radar vital signs, cuffless BP (ECG+PPG), and smart EMG fatigue roadmaps
         └── BioAmp_Pro_AFE/               <- Precision Biopotential AFE architecture (CMRR >100 dB, DRL active suppression)
 ```
@@ -66,9 +65,9 @@ academic-engineering-portfolio/
 | Year | Course / Domain | Research / Experiment Topic | Tools & Instrumentation | Key Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
 | **2026** | **Industrial Electronics** | Switched-Mode DC-DC Buck/Boost CCM/DCM Characterization, State-Space Averaging, PI Bode Stability & Physical Benchtop Switching Ringing Probing | PSIM, Differential Probes, DSO | [Mustafa_Yagci_LABORATORY_REPORT.pdf](yl/2026/Industrial_Electronics/Mustafa_Yagci_LABORATORY_REPORT.pdf) *(65 Pages)* |
-| **2026** | **Electronic Measurement** | Virtual DAQ Architecture, Nyquist-Shannon Sampling, 16-bit SAR ADC Dynamic Characterization (SNR, SINAD, ENOB, THD) & GUM Uncertainty | LabVIEW, 16-bit DAQ, FFT/DFT | [Lab_Report_Mustafa_Yagci.pdf](yl/2026/Measurement_and_Automation/Lab_Report_Mustafa_Yagci.pdf) *(65 Pages + VIs)* |
+| **2026** | **Electronic Measurement** | Virtual DAQ Architecture, Nyquist-Shannon Sampling, 16-bit SAR ADC Dynamic Characterization (SNR, SINAD, ENOB, THD) & GUM Uncertainty | LabVIEW, 16-bit DAQ, FFT/DFT | [Lab_Report_Mustafa_Yagci.pdf](yl/2026/Measurement_and_Automation/Lab_Report_Mustafa_Yagci.pdf) *(65 Pages + 49 VIs)* |
 | **2026** | **Biomedical Engineering** | Precision Biopotential Analog Front-End (AFE), Active Driven-Right-Leg (DRL), Notch & Sallen-Key Bandpass Filtering | KiCad 8, LTspice | [BioAmp Pro Documentation](yl/2026/BioAmp_Pro_AFE/README.md) |
-| **2026** | **Biomedical IoT** | Contactless Radar Respiration Detection, Cuffless PTT Blood Pressure, and Surface EMG Muscle Fatigue FFT Analysis | Radar, Photoplethysmography | [Biomedical IoT Roadmaps](yl/2026/Biomedical_IoT/) |
+| **2026** | **Biomedical IoT** | Contactless Radar Respiration Detection, Cuffless PTT Blood Pressure, and Surface EMG Muscle Fatigue FFT Analysis | Radar, Photoplethysmography | [Biomedical IoT Research Brief](yl/2026/Biomedical_IoT/README.md) |
 | **2025** | **Applied Electronics** | BD139 Closed-Loop Negative Feedback Voltage Regulators, Tuned LC RF Frequency Mixers, and Phase-Locked Loop (PLL) Dynamics | LTspice, Spectrum Analyzer | [Mustafa_Yagci_Report.pdf](yl/2025/Applied_Electronics/Mustafa_Yagci_Report.pdf) *(15 Pages)* |
 
 ---
@@ -79,15 +78,14 @@ academic-engineering-portfolio/
 | :--- | :--- | :--- | :--- | :--- |
 | **2024** | **Power Electronics** | Controlled Single-Phase Half-Wave Thyristor Rectifier with Inductive RL Load & Freewheeling Diode | Benchtop Oscilloscope, SCR, R-L load | [Exp 4 Report](lisans/2024/Guc_Elektronigi/2024-12-08_Guc-Elektronigi_Exp4_Tristorlu-Dogrultucu-ve-RL-Enduktif-Yuk-Osiloskop.pdf) |
 | **2024** | **Semiconductor Fab** | Deal-Grove 700 nm Thermal $SiO_2$ Oxidation Modeling & 250 nm RIE Trench Deep Reactive Ion Etching | Microfabrication Physics, RIE | [Fab Report](lisans/2024/Yari_Iletken_Uretim/2024-11-27_Yari-Iletken-Uretim_Odev2_700nm-SiO2-Buyutme-ve-250nm-Derin-Etching.pdf) |
-| **2024** | **Radar Systems** | Pulse Doppler Radar Architecture, Ambiguity Function, PRF Selection, and Coherent Target Velocity Detection | Radar Math, Doppler Processing | [Radar Architecture](lisans/2024/Radar_Sistemleri/2024-12-22_Radar-Sistemleri_Darbe-Doppler-ve-Hedef-Tespit-Mimarisi.docx) |
 | **2024** | **PLC Automation** | Analog Voltage/Current Input Calibration (`NORM_X` / `SCALE_X`) & Multi-Station Motor Interlocking | Siemens S7-1200, TIA Portal V17 | [Lab 7–8 Reports](lisans/2024/PLC_Endustriyel_Otomasyon/) |
 | **2024** | **Communications** | GNU Octave / MATLAB Channel Simulation, Bandpass Filtering, and Spectral Sinc Reconstruction | GNU Octave, Fast Fourier Transform | [Exp 8 Report](lisans/2024/Haberlesme_Sistemleri/2024-05-16_Haberlesme-Sistemleri_Exp8_Octave-Sinyal-Adaptasyon-ve-Filtreleme.pdf) |
 | **2023** | **Control Systems** | Complete 7-Stage Practicum: Transfer Functions, State-Space ($A, B, C, D$), Closed-Loop PID Tuning, Bode Stability Margin, Root Locus, and 2nd-Order Transient Response | MATLAB / Simulink Control Toolbox | [Exp 1–7 Reports](lisans/2023/Kontrol_Sistemleri/) |
 | **2023** | **PLC Automation** | Digital Inputs/Outputs, Memory Merker Bits, Set/Reset Latches, TON/TOF Timers, CTU/CTD Counters, and SFC Conveyor Automation | Siemens TIA Portal V17, Ladder Logic | [Lab 1–6 Reports](lisans/2023/PLC_Endustriyel_Otomasyon/) |
 | **2022** | **Digital Systems** | Complete 9-Stage Practicum: TTL Logic Gates, Decoders, Multiplexers, Adders/Subtractors, Synchronous Counters, Xilinx ISE Spartan FPGA Synthesis, and Verilog HDL Mealy FSM Modeling | Xilinx ISE, Spartan FPGA, Verilog HDL | [Exp 1–9 Reports](lisans/2022/Sayisal_Sistemler_ve_Verilog/) |
 | **2022** | **Analog Electronics** | Semiconductor Diode $I-V$ Characterization, BJT DC Biasing & $Q$-Point Thermal Stability, Common-Emitter Amplifier, and N-Channel JFET $A_v pprox 20$ Gain Amplifier | Curve Tracer, Benchtop DMM, DSO | [Exp 1–5 Reports](lisans/2022/Analog_Elektronik/) |
-| **2022** | **Circuit Analysis** | 1st-Order RC Circuit Transient Response, Step Input Excitation, Natural/Forced Dynamics, and $	au = RC$ Time-Constant Extraction | Benchtop DSO, Signal Generator | [Exp 5 Report](lisans/2022/Devre_Analizi/2022-01-03_Devre-Analizi_Exp5_RC-Devresi-Basamak-Yaniti-ve-Zaman-Sabiti.pdf) |
-| **2021** | **Circuit Analysis** | Fundamental Resistive Networks, Ohm's Law Verification, and Experimental KCL / KVL Nodal Voltage Analysis | Precision Multimeter, DC Power Supply | [Exp 1–2 Reports](lisans/2021/Devre_Analizi/) |
+| **2022** | **Circuit Analysis** | 1st-Order RC Circuit Transient Response, Step Input Excitation, Natural/Forced Dynamics, and $\tau = RC$ Time-Constant Extraction | Benchtop DSO, Signal Generator | [Exp 5 Report](lisans/2022/Devre_Analizi/2022-01-03_Devre-Analizi_Exp5_RC-Devresi-Basamak-Yaniti-ve-Zaman-Sabiti.pdf) |
+| **2021** | **Circuit Analysis** | Fundamental Resistive Networks, Ohm's Law Verification, and Experimental KCL / KVL Nodal Voltage Analysis | Precision Multimeter, DC Power Supply | [Exp 1–2 Practicum](lisans/2021/Devre_Analizi/README.md) |
 
 ---
 

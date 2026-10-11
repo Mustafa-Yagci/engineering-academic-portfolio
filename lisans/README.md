@@ -21,5 +21,4 @@
   - `PLC_Endustriyel_Otomasyon/`: Labs 7–8: 4–20 mA / 0–10 V analog input signal calibration (`NORM_X` / `SCALE_X`) and comprehensive multi-motor automated manufacturing line program with safety E-stop interlocking.
   - `Haberlesme_Sistemleri/`: GNU Octave digital communication channel modeling, Fourier frequency transform, bandpass filtering, and signal reconstruction.
   - `Yari_Iletken_Uretim/`: Semiconductor fabrication assignment: Deal-Grove 700 nm thermal $SiO_2$ oxidation modeling and 250 nm reactive ion etching (RIE) trench process calculations.
-  - `Radar_Sistemleri/`: Coherent Pulse Doppler radar architecture, radar range equation, PRF blind speed avoidance, and target Doppler shift velocity estimation.
   - `Guc_Elektronigi/`: Single-phase phase-controlled half-wave thyristor (SCR) rectifier circuit with $R=100\,\Omega, L=50\,\text{mH}$ inductive load, freewheeling diode conduction, and dual-channel oscilloscope transient analysis.
