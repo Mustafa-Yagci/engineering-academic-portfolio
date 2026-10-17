@@ -20,7 +20,7 @@
 
 This repository provides an open-source, reproducible catalog of my physical laboratory investigations, hardware bringing-up reports, ECAD simulations, and automated test instrumentation frameworks developed across my academic curriculum:
 
-1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, and discrete power electronic converters.
+1. **Undergraduate Level (ESOGÜ, 2021 – 2024 / Graduated April 2025):** 20+ laboratory experiments spanning foundational DC/AC circuit theory, transistor-level analog amplification, Verilog HDL / Mealy FSM digital modeling, MATLAB/Simulink closed-loop PID control, industrial Siemens PLC ladder automation, semiconductor microfabrication, discrete power electronic converters, and the culminating **B.Sc. Capstone Graduation Thesis** (Design and Implementation of an 84V / 40A Sensored 3-Phase BLDC Motor Driver).
 2. **Master's Level Studies (UniPa, Nov 2025 – Present / Ongoing M.Sc. Student):** Advanced engineering research across switched-mode DC-DC converter stability (65-page PSIM & benchtop differential probing study), discrete closed-loop voltage regulators / RF mixers / PLLs (15-page Applied Electronics report), and automated LabVIEW virtual DAQ & 16-bit SAR ADC dynamic testing suites (65-page measurement framework + 49 custom `.vi` codebase).
 
 ---
@@ -31,6 +31,7 @@ This repository provides an open-source, reproducible catalog of my physical lab
 academic-engineering-portfolio/
 │
 ├── lisans/                               <- Undergraduate Practicum (ESOGÜ, B.Sc. in Electrical & Electronics Eng.)
+│   ├── Bitirme_Tezi/                     <- 🎓 B.Sc. Capstone Degree Thesis: 84V/40A 3-Phase BLDC Motor Driver (Report & Slides)
 │   ├── 2021/
 │   │   └── Devre_Analizi/                <- Resistor networks, Ohm's law, Kirchhoff's KCL/KVL nodal analysis
 │   ├── 2022/
@@ -72,6 +73,7 @@ academic-engineering-portfolio/
 
 | Year | Discipline | Laboratory / Experiment Topic | Methodology & Hardware | Deliverable Link |
 | :--- | :--- | :--- | :--- | :--- |
+| **2024** | **Capstone Degree Thesis** | **Design & Implementation of a High-Power 3-Phase BLDC Motor Driver (84V / 40A, STM32, 120° Hall Commutation, Unipolar PWM & RC Snubber)** | STM32F103, IRFB4110 MOSFETs, IR2127/IR2101, PSIM, Oscilloscope | [Thesis Report](lisans/Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Thesis_Report.pdf) *(56 Pages)* & [Presentation](lisans/Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Project_Presentation.pdf) *(25 Slides)* \| [README](lisans/Bitirme_Tezi/README.md) |
 | **2024** | **Power Electronics** | Controlled Single-Phase Half-Wave Thyristor Rectifier with Inductive RL Load & Freewheeling Diode | Benchtop Oscilloscope, SCR, R-L load | [Exp 4 Report](lisans/2024/Guc_Elektronigi/2024-12-08_Guc-Elektronigi_Exp4_Tristorlu-Dogrultucu-ve-RL-Enduktif-Yuk-Osiloskop.pdf) |
 | **2024** | **Semiconductor Fab** | Deal-Grove 700 nm Thermal $SiO_2$ Oxidation Modeling & 250 nm RIE Trench Deep Reactive Ion Etching | Microfabrication Physics, RIE | [Fab Report](lisans/2024/Yari_Iletken_Uretim/2024-11-27_Yari-Iletken-Uretim_Odev2_700nm-SiO2-Buyutme-ve-250nm-Derin-Etching.pdf) |
 | **2024** | **PLC Automation** | Analog Voltage/Current Input Calibration (`NORM_X` / `SCALE_X`) & Multi-Station Motor Interlocking | Siemens S7-1200, TIA Portal V17 | [Lab 7–8 Reports](lisans/2024/PLC_Endustriyel_Otomasyon/) |
@@ -79,7 +81,7 @@ academic-engineering-portfolio/
 | **2023** | **Control Systems** | Complete 7-Stage Practicum: Transfer Functions, State-Space ($A, B, C, D$), Closed-Loop PID Tuning, Bode Stability Margin, Root Locus, and 2nd-Order Transient Response | MATLAB / Simulink Control Toolbox | [Exp 1–7 Reports](lisans/2023/Kontrol_Sistemleri/) |
 | **2023** | **PLC Automation** | Digital Inputs/Outputs, Memory Merker Bits, Set/Reset Latches, TON/TOF Timers, CTU/CTD Counters, and SFC Conveyor Automation | Siemens TIA Portal V17, Ladder Logic | [Lab 1–6 Reports](lisans/2023/PLC_Endustriyel_Otomasyon/) |
 | **2022** | **Digital Systems** | Complete 9-Stage Practicum: TTL Logic Gates, Decoders, Multiplexers, Adders/Subtractors, Synchronous Counters, Xilinx ISE Spartan FPGA Synthesis, and Verilog HDL Mealy FSM Modeling | Xilinx ISE, Spartan FPGA, Verilog HDL | [Exp 1–9 Reports](lisans/2022/Sayisal_Sistemler_ve_Verilog/) |
-| **2022** | **Analog Electronics** | Semiconductor Diode $I-V$ Characterization, BJT DC Biasing & $Q$-Point Thermal Stability, Common-Emitter Amplifier, and N-Channel JFET $A_v pprox 20$ Gain Amplifier | Curve Tracer, Benchtop DMM, DSO | [Exp 1–5 Reports](lisans/2022/Analog_Elektronik/) |
+| **2022** | **Analog Electronics** | Semiconductor Diode $I-V$ Characterization, BJT DC Biasing & $Q$-Point Thermal Stability, Common-Emitter Amplifier, and N-Channel JFET $A_v  pprox 20$ Gain Amplifier | Curve Tracer, Benchtop DMM, DSO | [Exp 1–5 Reports](lisans/2022/Analog_Elektronik/) |
 | **2022** | **Circuit Analysis** | 1st-Order RC Circuit Transient Response, Step Input Excitation, Natural/Forced Dynamics, and $\tau = RC$ Time-Constant Extraction | Benchtop DSO, Signal Generator | [Exp 5 Report](lisans/2022/Devre_Analizi/2022-01-03_Devre-Analizi_Exp5_RC-Devresi-Basamak-Yaniti-ve-Zaman-Sabiti.pdf) |
 | **2021** | **Circuit Analysis** | Fundamental Resistive Networks, Ohm's Law Verification, and Experimental KCL / KVL Nodal Voltage Analysis | Precision Multimeter, DC Power Supply | [Exp 1–2 Practicum](lisans/2021/Devre_Analizi/README.md) |
 
