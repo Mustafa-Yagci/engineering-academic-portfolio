@@ -22,8 +22,8 @@
 
 | Competition / Event | Category & Award | Team & Role | Technical & Engineering Contribution |
 | :--- | :--- | :--- | :--- |
-| **TEKNOFEST 2023** | 🥉 **3rd Place — Acceleration Challenge** *(İvmeleme Yarışı 3.lüğü)* | **Mavera Technology Team**<br>*(Motor Driver Lead Designer)* | Designed the custom 100% domestic 3-phase BLDC motor driver, low-loss MOSFET inverter bridge, and high-torque start algorithm, propelling the electric vehicle to **3rd place nationwide** in launch acceleration. |
-| **TÜBİTAK / TEKNOFEST 2023** | 🏅 **9th Place — International Efficiency Challenge Electric Vehicle** *(Verimlilik Yarışması 9.luğu)* | **Mavera Technology Team**<br>*(Motor Drive Mentor & Systems Engineer)* | Optimized the regenerative braking algorithms, telemetry bus processing, and independent unipolar PWM commutation, achieving **top-10 national energy efficiency** among competing university teams. |
+| **TEKNOFEST 2023** | 🥉 **3rd Place — Acceleration Challenge** | **Mavera Technology Team**<br>*(Motor Driver Lead Designer)* | Designed the custom 100% domestic 3-phase BLDC motor driver, low-loss MOSFET inverter bridge, and high-torque start algorithm, propelling the electric vehicle to **3rd place nationwide** in launch acceleration. |
+| **TÜBİTAK / TEKNOFEST 2023** | 🏅 **9th Place — International Efficiency Challenge (Electric Vehicle)** | **Mavera Technology Team**<br>*(Motor Drive Mentor & Systems Engineer)* | Optimized the regenerative braking algorithms, telemetry bus processing, and independent unipolar PWM commutation, achieving **top-10 national energy efficiency** among competing university teams. |
 
 ---
 
