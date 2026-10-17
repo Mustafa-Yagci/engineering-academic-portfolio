@@ -17,10 +17,23 @@
 ---
 
 [![ESOGÜ Graduation Project](https://img.shields.io/badge/B.Sc._Capstone-ESOGÜ_EEE_%7C_June_2024-003366?style=for-the-badge&logo=academia)](#)
+[![TEKNOFEST 2023 3rd Place](https://img.shields.io/badge/TEKNOFEST_2023-3rd_Place_Acceleration_Challenge-FFD700?style=for-the-badge&logo=target&logoColor=black)](#)
+[![TEKNOFEST 2023 9th Place](https://img.shields.io/badge/TEKNOFEST_2023-9th_Place_Efficiency_Challenge-4169E1?style=for-the-badge&logo=speedtest)](#)
 [![STM32 ARM Cortex-M3](https://img.shields.io/badge/MCU-STM32F103_%7C_72MHz_Cortex--M3-03234B?style=for-the-badge&logo=stmicroelectronics)](#)
 [![Power Stage 84V / 40A](https://img.shields.io/badge/Power_Stage-84V_DC__40A_Phase_Current-D2222D?style=for-the-badge)](#)
 [![MOSFET IRFB4110](https://img.shields.io/badge/Switching-IRFB4110_100V_180A-2E8B57?style=for-the-badge)](#)
 [![Modulation](https://img.shields.io/badge/Modulation-Independent_Unipolar_PWM-FFA500?style=for-the-badge)](#)
+
+---
+
+## 🏆 Competition Track Record & TEKNOFEST 2023 Awards
+
+The 3-phase BLDC motor driver hardware, gate drive circuits, and firmware algorithms developed in this graduation capstone project served as the core electric propulsion system for the **Mavera Technology Team** in national vehicle competitions:
+
+* 🥉 **3rd Place Nationwide — TEKNOFEST 2023 Acceleration Challenge (*İvmeleme Yarışı 3.lüğü*):**  
+  The high-torque unipolar switching sequence, low-loss MOSFET bridge, and fast-response throttle mapping achieved exceptional launch acceleration, securing 3rd place across all university engineering teams in Turkey.
+* 🏅 **9th Place Nationwide — TÜBİTAK / TEKNOFEST 2023 International Efficiency Challenge Electric Vehicle (*Verimlilik Yarışması 9.luğu*):**  
+  Conduction loss minimization ($R_{DS(on)} = 4.5\,\text{m}\Omega$), independent unipolar PWM reducing switching cycles by 50%, and low-ESR DC bus filtering delivered top-10 national energy efficiency.
 
 ---
 

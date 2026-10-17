@@ -8,11 +8,22 @@
 
 [![ESOGÜ B.Sc. Graduate](https://img.shields.io/badge/B.Sc._Graduate-ESOGÜ_%7C_Apr_2025-003366?style=for-the-badge&logo=academia)](#)
 [![UniPa M.Sc. Student](https://img.shields.io/badge/M.Sc._Student-UniPa_%7C_Nov_2025--Present_(Ongoing)-8B0000?style=for-the-badge&logo=google-scholar)](#)
+[![TEKNOFEST 2023 3rd Place](https://img.shields.io/badge/TEKNOFEST_2023-3rd_Place_Acceleration_Challenge-FFD700?style=for-the-badge&logo=target&logoColor=black)](#)
+[![TEKNOFEST 2023 9th Place](https://img.shields.io/badge/TEKNOFEST_2023-9th_Place_Efficiency_Challenge-4169E1?style=for-the-badge&logo=speedtest)](#)
 [![Vivado & RTL](https://img.shields.io/badge/FPGA-Xilinx%20Vivado%20%7C%20Verilog%20%7C%20VHDL-E05A47?style=for-the-badge&logo=amd)](#)
 [![KiCad 8](https://img.shields.io/badge/PCB-KiCad%208%20(0%20ERC%20%2F%200%20DRC)-314CB6?style=for-the-badge&logo=kicad)](#)
 [![PSIM & Power](https://img.shields.io/badge/Power-PSIM%20%7C%20State--Space-2E8B57?style=for-the-badge)](#)
 [![LabVIEW](https://img.shields.io/badge/DAQ-LabVIEW%20Virtual%20Instrumentation-FFCC00?style=for-the-badge&logo=nationalinstruments&logoColor=black)](#)
 [![TIA Portal PLC](https://img.shields.io/badge/Automation-Siemens%20TIA%20Portal%20V17-006464?style=for-the-badge&logo=siemens)](#)
+
+---
+
+## 🏆 Honors & Engineering Awards (TEKNOFEST & TÜBİTAK)
+
+| Competition / Event | Category & Award | Team & Role | Technical & Engineering Contribution |
+| :--- | :--- | :--- | :--- |
+| **TEKNOFEST 2023** | 🥉 **3rd Place — Acceleration Challenge** *(İvmeleme Yarışı 3.lüğü)* | **Mavera Technology Team**<br>*(Motor Driver Lead Designer)* | Designed the custom 100% domestic 3-phase BLDC motor driver, low-loss MOSFET inverter bridge, and high-torque start algorithm, propelling the electric vehicle to **3rd place nationwide** in launch acceleration. |
+| **TÜBİTAK / TEKNOFEST 2023** | 🏅 **9th Place — International Efficiency Challenge Electric Vehicle** *(Verimlilik Yarışması 9.luğu)* | **Mavera Technology Team**<br>*(Motor Drive Mentor & Systems Engineer)* | Optimized the regenerative braking algorithms, telemetry bus processing, and independent unipolar PWM commutation, achieving **top-10 national energy efficiency** among competing university teams. |
 
 ---
 

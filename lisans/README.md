@@ -4,9 +4,10 @@
 **Curriculum Accreditation:** ABET (Accreditation Board for Engineering and Technology)  
 **Student:** Mustafa Yağcı (B.Sc. Graduate, Apr 2025, Student ID: `151220192027`)
 
-## 🎓 B.Sc. Capstone Graduation Project (Bitirme Tezi)
+## 🎓 B.Sc. Capstone Graduation Project (Bitirme Tezi) & Honors
 
 - **[`Bitirme_Tezi/`](Bitirme_Tezi/)**: **Design and Implementation of a High-Power 3-Phase BLDC Motor Driver (84V / 40A, STM32, 120° Hall Commutation, Unipolar PWM & RC Snubber)**  
+  - 🏆 **National Honors:** **3rd Place** in TEKNOFEST 2023 Acceleration Challenge & **9th Place** in TÜBİTAK/TEKNOFEST 2023 International Efficiency Challenge (Mavera Technology Team).
   - 📄 **Thesis Report:** [`BLDC_Motor_Driver_Graduation_Thesis_Report.pdf`](Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Thesis_Report.pdf) *(56 Pages)*
   - 📊 **Defense Presentation:** [`BLDC_Motor_Driver_Graduation_Project_Presentation.pdf`](Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Project_Presentation.pdf) *(25 Slides)*
   - 📖 **Documentation:** Comprehensive hardware architecture, loss calculations, STM32 dual-timer firmware, PSIM simulation, and video links in [`Bitirme_Tezi/README.md`](Bitirme_Tezi/README.md).
