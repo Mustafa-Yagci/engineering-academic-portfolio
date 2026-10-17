@@ -36,6 +36,57 @@ This repository provides an open-source, reproducible catalog of my physical lab
 
 ---
 
+## 🌟 Featured Engineering Pillars
+
+<table>
+  <tr>
+    <td width="33.3%" valign="top">
+      <h3>⚡ <a href="lisans/Bitirme_Tezi/">High-Power BLDC Motor Driver</a></h3>
+      <p><b>🎓 B.Sc. Capstone Graduation Thesis</b></p>
+      <p>Industrial <b>84V / 40A</b> 3-phase sensored BLDC motor controller engineered for EV propulsion:</p>
+      <ul>
+        <li><b>Power Stage:</b> 6x IRFB4110 MOSFET bridge ($V_{DS}=100\text{V}, I_D=180\text{A}, R_{DS(on)}=4.5\text{ m}\Omega$), high-current DC bus bar & RC snubber damping.</li>
+        <li><b>Firmware & MCU:</b> STM32F103 (72 MHz), 120° Hall commutation, Independent Unipolar PWM (50% reduced switching losses), SysTick soft-start ramp.</li>
+        <li><b>🏆 Honors:</b> 🥉 3rd Place Acceleration & 🏅 9th Place Efficiency at TEKNOFEST 2023 with Mavera EV.</li>
+      </ul>
+      <p>
+        <a href="lisans/Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Thesis_Report.pdf"><img src="https://img.shields.io/badge/Thesis_Report-56_Pages-blue?style=flat-square&logo=adobeacrobatreader" /></a>
+        <a href="lisans/Bitirme_Tezi/BLDC_Motor_Driver_Graduation_Project_Presentation.pdf"><img src="https://img.shields.io/badge/Defense_Deck-25_Slides-orange?style=flat-square" /></a>
+      </p>
+    </td>
+    <td width="33.3%" valign="top">
+      <h3>🔌 <a href="yl/2026/Industrial_Electronics/">Switched-Mode Power Systems</a></h3>
+      <p><b>🔬 Master's Research @ UniPa</b></p>
+      <p>Exhaustive <b>65-page laboratory study</b> on non-isolated DC-DC Buck/Boost converter topologies:</p>
+      <ul>
+        <li><b>Modeling & Control:</b> State-space small-signal averaging, CCM/DCM boundary conditions, closed-loop analog PI compensator Bode stability design.</li>
+        <li><b>Physical Probing:</b> High-bandwidth differential oscilloscope probing of switching transients, $V_{DS}$ ringing, diode reverse-recovery, and efficiency.</li>
+        <li><b>Validation:</b> PSIM electronic simulation matched with physical benchtop power stage.</li>
+      </ul>
+      <p>
+        <a href="yl/2026/Industrial_Electronics/Mustafa_Yagci_LABORATORY_REPORT.pdf"><img src="https://img.shields.io/badge/Report-65_Pages-darkgreen?style=flat-square&logo=adobeacrobatreader" /></a>
+        <img src="https://img.shields.io/badge/Tools-PSIM_%7C_DSO-blue?style=flat-square" />
+      </p>
+    </td>
+    <td width="33.3%" valign="top">
+      <h3>📊 <a href="yl/2026/Measurement_and_Automation/">Automated DAQ & ADC Testing</a></h3>
+      <p><b>🔬 Master's Research @ UniPa</b></p>
+      <p>Comprehensive <b>65-page framework + 49 custom LabVIEW VIs</b> for dynamic measurement:</p>
+      <ul>
+        <li><b>Virtual DAQ Architecture:</b> Nyquist-Shannon sampling theorem, coherent spectral windowing, and anti-aliasing filter synthesis.</li>
+        <li><b>16-bit SAR ADC Characterization:</b> Automated SNR, SINAD, ENOB, and THD dynamic extraction via FFT spectral decomposition.</li>
+        <li><b>Uncertainty Budget:</b> GUM-compliant Type-A / Type-B expanded uncertainty evaluation.</li>
+      </ul>
+      <p>
+        <a href="yl/2026/Measurement_and_Automation/Lab_Report_Mustafa_Yagci.pdf"><img src="https://img.shields.io/badge/Report-65_Pages-darkgreen?style=flat-square&logo=adobeacrobatreader" /></a>
+        <img src="https://img.shields.io/badge/VIs-49_Modules-FFCC00?style=flat-square&logoColor=black" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🗂️ Repository Architecture
 
 ```text
